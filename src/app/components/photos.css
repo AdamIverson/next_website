@@ -1,3 +1,16 @@
 #photoViewer {
-  display: flex,
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.photo {
+  background-color: green;
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 10px 2px white;
 }
