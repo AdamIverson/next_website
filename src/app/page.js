@@ -10,8 +10,8 @@ import Navbar from './components/Navbar/page'
 export default function Home() {
   return (
     <Box>
-      <h1>
-        Home
+      <h1 className="title">
+        home
       </h1>
     </Box>
   )

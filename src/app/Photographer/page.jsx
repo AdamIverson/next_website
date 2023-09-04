@@ -7,8 +7,10 @@ import Photos from '../components/Photos'
 function Photography() {
   return (
     <Box>
-      <h1>Photography</h1>
-      <Photos />
+      <h1 className="title">photography</h1>
+      <Box className="container">
+        <Photos />
+      </Box>
     </Box>
   )
 }
